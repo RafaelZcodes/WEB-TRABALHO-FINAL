@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: none;
+    }
+
+
+img{
+    width: 150px;
+    height: 100px;
+}
+
+
+
+/* HEADER */
+
+    a{
+        text-decoration: none;
+        text-transform: none;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+
+    a:hover{
+        color: rgb(231, 11, 11)  ;
+    }
+
+    .ytLink{
+        font-size: large;
+        font-weight: bold;
+        color: red;
+        
+    }
+
+    .ytLink:hover{
+        color: black;
+    }
+
+    .informacoes{
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-end;
+        background: rgb(232, 232, 232)
+    }
+
+
+    .infos{
+        display: flex;
+        justify-content:space-between;
+        width: 450px;
+        padding: 30px;
+
+
+    }
+
+
+    .Logo{
+        height: 93px;
+        width: 30px;
+    }
+
+/* HEADER */
+
+/* ASIDE */
+
+
+
+
+/* INTRODUCTION */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&family=Oswald&family=Poppins&display=swap');
+
+
+
+aside{
+    display: flex;
+    align-items: center;
+    background-color: #5f9ea0;
+    
+   }
+
+aside img{
+    
+width: 72vw;
+height: 100%;
+
+}
+
+.Introduction{
+    align-items: center;
+    height: 500px;
+    border-radius: 15px;
+    
+}
+
+.Introduction h1{
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+/* INTRODUCTION */
+
+/* ARTICLE */
+    .article  {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 800px;
+        background-color: #0267C1;
+    }
+
+
+
+    .article h2{
+        font-size: 25px;
+        width: 75vw;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-shadow: -1px 1px black;
+    }
+
+    .Apresentacao{
+
+        height: 500px;
+        width: 750px;
+
+    }
+
+
+
+    .BookShell{
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        background-color: #6bace6;
+        margin: 0;
+
+    }
+
+    .itens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 335vw;
+        
+    }
+
+    .itensTexto{
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+       
+        
+    }
+
+    .item img{
+        width: 200px;
+        height: 300px;
+        color: white;
+
+
+    }
+/* ARTICLE */
+
+
+/* Livros Decoration **/
+
+
+
+.itens .itensTexto{
+
+    width: 500px;
+    margin:60px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: -1px 1px black;
+}
+
+/* Livros Decoration **/
+

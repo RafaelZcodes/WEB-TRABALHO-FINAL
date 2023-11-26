@@ -1,0 +1,189 @@
+@media (max-width: 750px) {
+    .container{
+    /* display: flex; */
+    flex-direction: column; 
+    align-items: center;
+    margin: 0px;
+    padding: 0px; 
+    
+        
+    }
+
+    .informacoes{
+        width: 100vw;
+    }
+
+    
+    .Introduction{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    font-size: 20px;
+    }
+   
+    .BookShell{
+        display: flex;
+        /* padding: 150px; */
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .itens {
+        width: 300px;   
+    }
+
+    .item img{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 300px;
+        
+        }
+
+    
+    .article{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .article h2{
+        font-size: 20px;
+    }
+
+    aside{
+        width: 100vw;
+        
+    }
+
+    .Introduction{
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+
+    .Introduction h1{
+        font-size: 25px;
+        padding: 10px;
+        width: 98.8vw;
+        }
+
+    .Apresentacao{
+
+        height: 400px;
+        width: 650px;
+    
+    }
+    
+    
+}
+
+
+@media (max-width: 1700px) {
+    .container{
+        margin: 0;
+    }
+
+    aside{
+        display: flex;
+        flex-direction:column;
+       
+    }
+
+    aside img{
+        width: 98.8vw;
+        height: 100%;
+    
+        }
+
+    .Introduction h1{
+        
+    }
+    
+
+    .Introduction{
+        height: fit-content;
+        margin: 10px;
+    }
+
+
+
+    .BookShell{
+        display: flex;
+    }
+    .article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .article h2{
+        font-size: 25px;
+    }
+    .Apresentacao{
+        height: 300px;
+        width: 450px;
+
+    }
+}
+
+
+
+
+@media (max-width: 1400px) {
+
+    .container{
+        margin: 0;
+    }
+
+    .BookShell{
+        display: flex;
+        flex-direction: column;
+       
+        margin: 0px;
+        padding: 0px;
+    }
+
+    
+
+    .article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    .article h2{
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    aside img{
+       width: 100vw;
+        height: 100%;
+    
+    }
+    
+
+    .Introduction{
+        height:fit-content ;
+        align-items: center;
+        
+        
+    }
+
+    .Introduction h1{
+        font-size: 35px;
+        padding: 10px;
+        
+        
+        }
+        
+}
